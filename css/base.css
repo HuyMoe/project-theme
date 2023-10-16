@@ -1,0 +1,316 @@
+:root {
+    --gap: 0px;
+    --black: #000;
+}
+
+
+/* reset css */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.btn {
+    width: 175px;
+    height: 56px;
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.badge__none {
+    display: none;
+}
+
+.price__red {
+    color: #EB5757;
+}
+
+.collection__name {
+    color: #BDBDBD;
+    font-family: Oswald;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.product__name {
+    color: #000;
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.prodct__price-origin {
+    font-family: Oswald;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.product__price-sale {
+    color: #828282;
+    font-family: Oswald;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+.badge-sale {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
+
+.mb {
+    display: none;
+}
+
+
+/* layout */
+
+.ctnr {
+    padding: 15px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.col_1 {
+    width: 100%;
+}
+
+.col_1-2 {
+    width: calc((100% - var(--gap)*1)/2);
+}
+
+.col_1-3 {
+    width: calc((100% - var(--gap)*2)/3);
+}
+
+.col_1-4 {
+    width: calc((100% - var(--gap)*3)/4);
+}
+
+.col_1-5 {
+    width: calc((100% - var(--gap)*4)/5);
+}
+
+.col_1-6 {
+    width: calc((100% - var(--gap)*5)/6);
+}
+
+.col_1-7 {
+    width: calc((100% - var(--gap)*6)/7);
+}
+
+.col_4-5 {
+    width: calc(80% - var(--gap));
+}
+
+
+/* reponsive */
+
+@media (max-width: 767px) {
+    .mb_col_1 {
+        width: 100%;
+    }
+    .mb_col_1-2 {
+        width: calc((100% - var(--gap))/2);
+    }
+    .mb_col_1-3 {
+        width: calc((100% - var(--gap))/3);
+    }
+    .mb_col_1-4 {
+        width: calc((100% - var(--gap))/4);
+    }
+    .mb__btn {
+        width: 85.083px;
+        height: 32px;
+        color: #000;
+        text-align: center;
+        font-family: Oswald;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
+    .product__name {
+        font-size: 12px !important;
+    }
+    .mb-badge__none {
+        display: none;
+    }
+    .mb-price__red {
+        color: #EB5757 !important;
+    }
+}

@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header row justify-between align-center">
+        <div class="header__logo">
+            <img src="./image/logo.png" alt="">
+        </div>
+        <nav class="header__nav">
+            <ul class="nav-list row">
+                <li class="nav-list__items"><a href="">home</a></li>
+                <li class="nav-list__items"><a href="">shope</a></li>
+                <li class="nav-list__items"><a href="">blog</a></li>
+                <li class="nav-list__items"><a href="">sale</a></li>
+                <li class="nav-list__items"><a href="">contact us</a> </li>
+                <li class="nav-list__items"><i class="fa-solid fa-magnifying-glass"></i> search</li>
+            </ul>
+        </nav>
+        <div class="header__account row">
+            <ul class="nav-list row align-center">
+                <li class="nav-list__items"><a href="">sign in</a> </li>
+                <li class="nav-list__items"><a href="">create an account</a></li>
+            </ul>
+            <div class="header-cart row">
+                <button class="like"><i class="fa-regular fa-heart"></i></button>
+                <button class="cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                <div class="header-cart__info">
+                    <p class="header-cart__text">Shopping Cart</p>
+                    <p class="header-cart__price">0,00 EUR</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="mb-header row justify-between align-center">
+        <div class="mb-header__menu-logo">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="mb-header__logo">
+            <img src="./image/logo.png" alt="">
+        </div>
+        <div class="mb-header__icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+    </header>
+    <div class="main">
+        <section class="slideshow">
+            <div class="slideshow__list">
+                <img src="./image/bg6.png" alt="" class="slideshow__image">
+                <div class="hero-banner__content">
+                    <h1 class="hero-banner__heading">SUMMER SALE GET<span> 30% OFF </span>On all dress.</h1>
+                    <button class="hero-banner__btn btn mb__btn">shop now</button>
+                </div>
+            </div>
+            <div class="slideshow__nav row justify-between align-center">
+                <div class="slideshow__input">
+                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="">
+                </div>
+                <div class="slideshow__btn mb__btn">
+                    <button class="btn-next">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                    <button class="btn-prev">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                </div>
+            </div>
+        </section>
+        <section class="mb-slideshow">
+            <div class="mb-slideshow__list">
+                <img src="./image/Group 830.png" alt="" class="slideshow__image">
+                <div class="hero-banner__content">
+                    <h1 class="hero-banner__heading">SUMMER SALE GET<span> 30% OFF </span>On all dress.</h1>
+                    <button class="hero-banner__btn btn mb__btn">shop now</button>
+                </div>
+            </div>
+            <div class="mb-slideshow__nav row justify-between align-center">
+                <div class="slideshow__btn">
+                    <button class="btn-next">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                </div>
+                <div class="slideshow__input">
+                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="">
+                </div>
+                <div class="slideshow__btn">
+                    <button class="btn-prev">
+                            <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="brand ctnr row justify-center">
+            <h1 class="brand__heading">chose your brand</h1>
+            <div class="brand__list row">
+                <img src="./image/channel.png" alt="" class="brand__image col_1-7 mb_col_1-2 ">
+                <img src="./image/burberry.png" alt="" class="brand__image col_1-7 mb_col_1-2">
+                <img src="./image/dior.png" alt="" class="brand__image col_1-7 mb_col_1-2">
+                <img src="./image/fendi.png" alt="" class="brand__image col_1-7 mb_col_1-2">
+                <img src="./image/versace.png" alt="" class="brand__image col_1-7 mb_col_1-2">
+                <img src="./image/gucci.png" alt="" class="brand__image col_1-7 mb_col_1-2">
+                <img src="./image/armani.png" alt="" class="brand__image col_1-7 mb_col_1-2">
+                <img src="./image/fendi.png" alt="" class="brand__image-mb col_1-7 mb_col_1-2">
+            </div>
+        </section>
+        <section class="hero-banner row">
+            <div class="hero-banner__col-1 row col_1-2 mb_col_1" style="--gap: 30px">
+                <div class="row-1">
+                    <div class="hero-banner__content">
+                        <h1 class="hero-banner__heading">choose<br>your look</h1>
+                        <p class="hero-banner__text">See our clothing collections</p>
+                        <button class="hero-banner__btn btn mb__btn">see offers</button>
+                    </div>
+                </div>
+                <div class="row-2">
+                    <div class="hero-banner__content">
+                        <h1 class="hero-banner__heading">brand new style</h1>
+                        <p class="hero-banner__text">Popular clothing brands</p>
+                        <button class="hero-banner__btn btn mb__btn">see offers</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-banner__col-2 col_1-2 mb_col_1" style="--gap: 30px">
+                <div class="hero-banner__content">
+                    <h1 class="hero-banner__heading">Up to<br>40% off</h1>
+                    <p class="hero-banner__text">Special offers and great deals</p>
+                    <button class="hero-banner__btn btn mb__btn">shop now</button>
+                </div>
+            </div>
+            <div class="hero-banner__col-1-mb row col_1-2 mb_col_1" style="--gap: 30px">
+                <div class="row-2">
+                    <div class="hero-banner__content">
+                        <h1 class="hero-banner__heading">brand new style</h1>
+                        <p class="hero-banner__text">Popular clothing brands</p>
+                        <button class="hero-banner__btn btn mb__btn">see offers</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="collection ctnr row justify-between">
+            <div class="collection__filter col_1-5 mb_col_1">
+                <h1 class="filter-name">Shop Some Wear:</h1>
+                <div class="filter">
+                    <input type="checkbox">
+                    <label for="">Best sellers</label>
+                </div>
+                <div class="filter">
+                    <input type="checkbox">
+                    <label for="">NEW Arivals</label>
+                </div>
+                <div class="filter">
+                    <input type="checkbox">
+                    <label for="">TOP women</label>
+                </div>
+                <div class="filter">
+                    <input type="checkbox">
+                    <label for="">Collection: Summer</label>
+                </div>
+                <div class="filter">
+                    <input type="checkbox">
+                    <label for="">Collection: spring</label>
+                </div>
+                <div class="filter">
+                    <input type="checkbox">
+                    <label for="">trending</label>
+                </div>
+            </div>
+            <div class="collection__list row justify-between col_4-5 mb_col_1" style="--gap:30px">
+                <div class="collection__items col_1-4 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media mb-badge__none ">30%</span>
+                        <img src="./image/Rectangle 7.png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin">139,00 EUR</span>
+                        <span class="product__price-sale mb-badge__none">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="collection__items col_1-4 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media">30%</span>
+                        <img src="./image/Rectangle 7(5).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin mb-price__red">139,00 EUR</span>
+                        <span class="product__price-sale">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="collection__items col_1-4 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media mb-badge__none ">30%</span>
+                        <img src="./image/Rectangle 7 (1).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin">139,00 EUR</span>
+                        <span class="product__price-sale mb-badge__none">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="collection__items col_1-4 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media mb-badge__none ">30%</span>
+                        <img src="./image/Rectangle 7.png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin price__red">139,00 EUR</span>
+                        <span class="product__price-sale mb-badge__none">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="collection__items col_1-4 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media mb-badge__none ">30%</span>
+                        <img src="./image/Rectangle 7 (2).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin">139,00 EUR</span>
+                        <span class="product__price-sale mb-badge__none">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="collection__items col_1-4 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media">30%</span>
+                        <img src="./image/Rectangle 7 (3).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin price__red mb-price__red">139,00 EUR</span>
+                        <span class="product__price-sale ">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="collection__items col_1-4 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media mb-badge__none ">30%</span>
+                        <img src="./image/Rectangle 7(5).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin">139,00 EUR</span>
+                        <span class="product__price-sale mb-badge__none">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="collection__items col_1-4 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media mb-badge__none ">30%</span>
+                        <img src="./image/Rectangle 7 (4).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin">139,00 EUR</span>
+                        <span class="product__price-sale mb-badge__none">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="collection__load-more row justify-center">
+                    <button class="load-more btn mb__btn">load more</button>
+                </div>
+            </div>
+        </section>
+        <section class="hero-banner ctnr">
+            <div class="hero-banner__row-1">
+                <div class="hero-banner__content">
+                    <h1 class="hero-banner__heading">shoping without limits.</h1>
+                    <p class="hero-banner__text">Choose the best option for you, and it does not matter whether you are.</p>
+                    <button class="hero-banner__btn btn mb__btn">shop now</button>
+                </div>
+            </div>
+        </section>
+        <section class="carousel ctnr">
+            <div class="carousel__nav row justify-between align-center">
+                <h1 class="carousel__heading">Featured Items</h1>
+                <div class="carousel__btn-nav">
+                    <button class="btn-next">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <button class="btn-prev">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="carousel__list row justify-between" style="--gap:30px">
+                <div class="carousel__items col_1-5 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media mb-badge__none ">30%</span>
+                        <img src="./image/Rectangle 7(6).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin">139,00 EUR</span>
+                        <span class="product__price-sale mb-badge__none">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="carousel__items col_1-5 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media">30%</span>
+                        <img src="./image/Rectangle 7(5).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin mb-price__red">139,00 EUR</span>
+                        <span class="product__price-sale">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="carousel__items col_1-5 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media badge__none">30%</span>
+                        <img src="./image/Rectangle 7 (3).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin">139,00 EUR</span>
+                        <span class="product__price-sale mb-badge__none">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="carousel__items col_1-5 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media mb-badge__none">30%</span>
+                        <img src="./image/Rectangle 7.png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin">139,00 EUR</span>
+                        <span class="product__price-sale mb-badge__none">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="carousel__items col_1-5 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media">30%</span>
+                        <img src="./image/Rectangle 7 (4).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin">139,00 EUR</span>
+                        <span class="product__price-sale mb-badge__none">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel__load-more row justify-center">
+                <button class="load-more btn mb__btn">load more</button>
+            </div>
+        </section>
+        <section class="carousel ctnr">
+            <div class="carousel__nav row justify-between align-center">
+                <h1 class="carousel__heading">Featured Items</h1>
+                <div class="carousel__btn-nav">
+                    <button class="btn-next">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <button class="btn-prev">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="carousel__list row justify-between" style="--gap:30px">
+                <div class="carousel__items col_1-5 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media mb-badge__none">30%</span>
+                        <img src="./image/Rectangle 7 (2).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin">139,00 EUR</span>
+                        <span class="product__price-sale mb-badge__none">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="carousel__items col_1-5 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media">30%</span>
+                        <img src="./image/Rectangle 7(6).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin mb-price__red">139,00 EUR</span>
+                        <span class="product__price-sale ">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="carousel__items col_1-5 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media badge__none">30%</span>
+                        <img src="./image/Rectangle 7 (4).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin">139,00 EUR</span>
+                        <span class="product__price-sale mb-badge__none">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="carousel__items col_1-5 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media">30%</span>
+                        <img src="./image/Rectangle 7 (3).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin">139,00 EUR</span>
+                        <span class="product__price-sale mb-badge__none">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+                <div class="carousel__items col_1-5 mb_col_1-2">
+                    <div class="main-media">
+                        <span class="badge-sale-media">30%</span>
+                        <img src="./image/Rectangle 7(5).png" alt="" class="product-media">
+                    </div>
+                    <h1 class="collection__name">TOP women</h1>
+                    <a class="product__name">Angels malu zip jeans slim black used</a>
+                    <div class="product__price">
+                        <span class="prodct__price-origin">139,00 EUR</span>
+                        <span class="product__price-sale mb-badge__none">119,00 EUR</span>
+                        <span class="badge-sale">16%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hero-banner-3 row ctnr">
+            <div class="hero-banner-3__col-1 col_1-2 mb_col_1"></div>
+            <div class="hero-banner-3__col-2 col_1-2 mb_col_1 row justify-center">
+                <div class="hero-banner__content">
+                    <h1 class="hero-banner__heading">EXPLORE THE BEST OF YOU.</h1>
+                    <p class="hero-banner__text">You can choose the best option for you, and it does not matter whether you are in Prague or San Francisco.</p>
+                    <button class="hero-banner__btn btn mb__btn">shop now</button>
+                </div>
+            </div>
+        </section>
+        <section class="blog">
+            <h1 class="blog__heading">Blog</h1>
+            <div class="blog__list row justify-between" style="--gap:30px">
+                <div class="blog__items col_1-4 mb_col_1">
+                    <h1 class="blog__name">Article</h1>
+                    <a href="" class="blog__title">Exactly What To Wear To Every Type Of Wedding This Summer</a>
+                    <p class="blog__content">A large part of the business here is building up the "experience". Double-page spreads in magazines. Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches and sailing competitions. All of this builds up your
+                        perception of the brand - and additionally, it costs money.</p>
+                    <p class="blog__date">21 January 2018 by guido</p>
+                </div>
+                <div class="blog__items col_1-4 mb_col_1">
+                    <h1 class="blog__name">Article</h1>
+                    <a href="" class="blog__title">Exactly What To Wear To Every Type Of Wedding This Summer</a>
+                    <p class="blog__content">A large part of the business here is building up the "experience". Double-page spreads in magazines. Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches and sailing competitions. All of this builds up your
+                        perception of the brand - and additionally, it costs money.</p>
+                    <p class="blog__date">21 January 2018 by guido</p>
+                </div>
+                <div class="blog__items col_1-4 mb_col_1">
+                    <h1 class="blog__name">Article</h1>
+                    <a href="" class="blog__title">Exactly What To Wear To Every Type Of Wedding This Summer</a>
+                    <p class="blog__content">A large part of the business here is building up the "experience". Double-page spreads in magazines. Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches and sailing competitions. All of this builds up your
+                        perception of the brand - and additionally, it costs money.</p>
+                    <p class="blog__date">21 January 2018 by guido</p>
+                </div>
+                <div class="blog__items col_1-4 mb_col_1">
+                    <h1 class="blog__name">Article</h1>
+                    <a href="" class="blog__title">Exactly What To Wear To Every Type Of Wedding This Summer</a>
+                    <p class="blog__content">A large part of the business here is building up the "experience". Double-page spreads in magazines. Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches and sailing competitions. All of this builds up your
+                        perception of the brand - and additionally, it costs money.</p>
+                    <p class="blog__date">21 January 2018 by guido</p>
+                </div>
+            </div>
+        </section>
+        <section class="service ctnr row justify-between align-center" style="--gap:30px">
+            <div class="service__items col_1-5 mb_col_1">
+                <h1 class=" service__name "><i class="fa-solid fa-check "></i> Duties and Taxes Guaranteed</h1>
+            </div>
+            <div class="service__items col_1-5 mb_col_1">
+                <h1 class="service__name"><i class="fa-solid fa-check"></i> Free Express Shipping</h1>
+            </div>
+            <div class="service__items col_1-5 mb_col_1">
+                <h1 class=" service__name "><i class="fa-solid fa-check "></i> Customer Love</h1>
+            </div>
+            <div class="service__items col_1-5 mb_col_1">
+                <h1 class="service__name"><i class="fa-solid fa-check"></i> Easy Returns</h1>
+            </div>
+            <div class="service__items col_1-5 mb_col_1">
+                <h1 class=" service__name "><i class="fa-solid fa-check "></i> Secure Payment</h1>
+            </div>
+        </section>
+    </div>
+    <footer class="footer row justify-between ">
+        <div class="footer__items col_1-6 ">
+            <img src="./image/logo.png " alt=" ">
+        </div>
+        <div class="footer__items col_1-6 ">
+            <h1 class="footer__heading ">features</h1>
+            <ul class="footer__nav ">
+                <li>
+                    <a href=" ">men</a>
+                </li>
+                <li>
+                    <a href=" ">Women</a>
+                </li>
+                <li>
+                    <a href=" ">boys</a>
+                </li>
+                <li>
+                    <a href=" ">girls</a>
+                </li>
+                <li>
+                    <a href=" ">new arrivals</a>
+                </li>
+                <li>
+                    <a href=" ">shoes</a>
+                </li>
+                <li>
+                    <a href=" ">clothes</a>
+                </li>
+                <li>
+                    <a href=" ">accessories</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__items col_1-6 ">
+            <h1 class="footer__heading ">features</h1>
+            <ul class="footer__nav ">
+                <li>
+                    <a href=" ">men</a>
+                </li>
+                <li>
+                    <a href=" ">Women</a>
+                </li>
+                <li>
+                    <a href=" ">boys</a>
+                </li>
+                <li>
+                    <a href=" ">girls</a>
+                </li>
+                <li>
+                    <a href=" ">new arrivals</a>
+                </li>
+                <li>
+                    <a href=" ">shoes</a>
+                </li>
+                <li>
+                    <a href=" ">clothes</a>
+                </li>
+                <li>
+                    <a href=" ">accessories</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__items col_1-6 ">
+            <h1 class="footer__heading ">features</h1>
+            <ul class="footer__nav ">
+                <h1 class="contact_content ">address</h1>
+                <li class="list "><a href=" ">123 STREET NAME, CITY, ENGLAND</a></li>
+                <h1 class="contact_content ">phone</h1>
+                <li class="list "><a href=" ">(123) 456-7890</a></li>
+                <h1 class="contact_content ">email</h1>
+                <li class="list "><a href=" ">MAIL@EXAMPLE.COM</a></li>
+                <h1 class="contact_content ">working day/hours</h1>
+                <li class="list "><a href=" ">MON - SUN / 9:00AM - 8:00PM</a></li>
+            </ul>
+        </div>
+        <div class="footer__items col_1-6 ">
+            <h1 class="footer__heading ">follow us</h1>
+            <ul class="footer__nav ">
+                <li class="list "><i class="fa-brands fa-square-facebook "></i><a href=" ">FACEBOOK</a></li>
+                <li class="list "><i class="fa-brands fa-square-twitter "></i><a href=" ">TWITTER</a></li>
+                <li class="list "><i class="fa-brands fa-instagram "></i><a href=" ">INSTAGRAM</a></li>
+            </ul>
+        </div>
+        <div class="footer__items col_1-6 ">
+            <h1 class="footer__heading ">join us</h1>
+            <p class="join-us ">Subscribe to our newsletters</p>
+            <input type="text " class="gmail " placeholder="Email Address ">
+            <button class="btn-submit ">Subscribe!</button>
+        </div>
+        <div class="footer__auther ">
+            <h1 class="auther ">© 2019. Crisp theme Developed by Belvg</h1>
+        </div>
+    </footer>
+    <footer class="mb-footer">
+        <div class="mb-footer__logo row justify-center">
+            <img src="./image/logo.png " alt=" ">
+        </div>
+        <div class="mb-footer__accordion">
+            <input type="checkbox" id="accor-1">
+            <label for="accor-1" class="tab-name row justify-between">features <i class="fa-solid fa-plus"></i></label>
+            <div class="tab-content">
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+            </div>
+        </div>
+        <div class="mb-footer__accordion">
+            <input type="checkbox" id="accor-2">
+            <label for="accor-2" class="tab-name row justify-between">features <i class="fa-solid fa-plus"></i></label>
+            <div class="tab-content">
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+            </div>
+        </div>
+        <div class="mb-footer__accordion">
+            <input type="checkbox" id="accor-3">
+            <label for="accor-3" class="tab-name row justify-between">features <i class="fa-solid fa-plus"></i></label>
+            <div class="tab-content">
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+            </div>
+        </div>
+        <div class="mb-footer__contact">
+            <h1 class="footer__heading ">join us</h1>
+            <p class="join-us ">Subscribe to our newsletters</p>
+            <input type="text " class="gmail " placeholder="Email Address ">
+            <button class="btn-submit">Subscribe!</button>
+        </div>
+        <div class="mb-footer__auther ">
+            <h1 class="auther ">© 2019. Crisp theme Developed by Belvg</h1>
+        </div>
+    </footer>
+</body>
+
+</html>
